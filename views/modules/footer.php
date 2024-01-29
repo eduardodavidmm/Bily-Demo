@@ -1,7 +1,7 @@
 <footer class="main-footer">
 
-	<strong>&copy; 2022 - Point of Sale System in PHP</strong>
+	<strong>&copy; 2024 - BILY POS Point Of Sale System</strong>
 	
-	All rights reserved
+	All rights reserved, developed by FUTURA CO.
 
 </footer>

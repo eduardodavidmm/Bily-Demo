@@ -3,10 +3,10 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Categories Management
+        Administración de Categorias
       </h1>
       <ol class="breadcrumb">
-        <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -17,7 +17,7 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <button class="btn btn-primary" data-toggle="modal" data-target="#addCategories">Add Categories</button>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#addCategories">Añadir Categorias</button>
 
         </div>
         <div class="box-body">
@@ -28,8 +28,8 @@
              <tr>
                
                <th style="width:10px">#</th>
-               <th>Category</th>
-               <th>Actions</th>
+               <th>Categoria</th>
+               <th>Acciones</th>
 
              </tr> 
 
@@ -114,7 +114,7 @@
       <form role="form" method="POST">
         <div class="modal-header" style="background: #3c8dbc; color: #fff">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Add Categories</h4>
+          <h4 class="modal-title">Añadir Categorias</h4>
         </div>
         <div class="modal-body">
           <div class="box-body">
@@ -131,7 +131,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-success">Save Category</button>
+          <button type="submit" class="btn btn-success">Guardar Categoria</button>
         </div>
       </form>
     </div>

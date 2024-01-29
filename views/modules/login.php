@@ -10,13 +10,13 @@
 
   <div class="login-box-body">
 
-    <p class="login-box-msg">Please log in to start your session</p>
+    <p class="login-box-msg">Inicio de Sesion - BILY</p>
 
     <form method="post">
 
       <div class="form-group has-feedback">
 
-        <input type="text" class="form-control" placeholder="Username" name="loginUser" required>
+        <input type="text" class="form-control" placeholder="Usuario" name="loginUser" required>
 
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
 
@@ -24,7 +24,7 @@
 
       <div class="form-group has-feedback">
 
-        <input type="password" class="form-control" placeholder="Password" name="loginPass" required>
+        <input type="password" class="form-control" placeholder="Contraseña" name="loginPass" required>
 
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
 

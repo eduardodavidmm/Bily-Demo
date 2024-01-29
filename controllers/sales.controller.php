@@ -633,7 +633,7 @@ class ControllerSales{
 	Adding TOTAL sales
 	=============================================*/
 
-	public function ctrAddingTotalSales(){
+	static public function ctrAddingTotalSales(){
 
 		$table = "sales";
 
