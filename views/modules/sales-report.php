@@ -5,13 +5,13 @@
 
     <h1>
 
-      Sales report
+      Reporte de Ventas
 
     </h1>
 
     <ol class="breadcrumb">
 
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
 
       <li class="active">Dashboard</li>
 

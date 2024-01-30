@@ -19,13 +19,13 @@ if($_SESSION["profile"] == "Seller"){
 
     <h1>
 
-      Product Management
+      Administración de Productos
 
     </h1>
 
     <ol class="breadcrumb">
 		<!-- Log on to codeastro.com for more projects! -->
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
 
       <li class="active">Dashboard</li>
 
@@ -39,7 +39,7 @@ if($_SESSION["profile"] == "Seller"){
 
       <div class="box-header with-border">
 
-        <button class="btn btn-success" data-toggle="modal" data-target="#addProduct"> <i class="fa fa-plus"></i> Add Product</button>
+        <button class="btn btn-success" data-toggle="modal" data-target="#addProduct"> <i class="fa fa-plus"></i> Añadir Producto</button>
 
       </div>
 
@@ -52,15 +52,15 @@ if($_SESSION["profile"] == "Seller"){
            <tr>
              
              <th style="width:10px">#</th>
-             <th>Image</th>
-             <th>Code</th>
-             <th>Description</th>
-             <th>Category</th>
-             <th>Stock</th>
-             <th>Buying Price</th>
-             <th>Selling Price</th>
-             <th>Date added</th>
-             <th>Actions</th>
+             <th>Imagen</th>
+             <th>Código</th>
+             <th>Descripción</th>
+             <th>Categoría</th>
+             <th>Existencias</th>
+             <th>Precio Compra</th>
+             <th>Precio Venta</th>
+             <th>Fecha de ingreso</th>
+             <th>Acciones</th>
 
            </tr> 
 
@@ -99,7 +99,7 @@ if($_SESSION["profile"] == "Seller"){
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Add Product</h4>
+          <h4 class="modal-title">Añadir Producto</h4>
 
         </div>
 
@@ -120,7 +120,7 @@ if($_SESSION["profile"] == "Seller"){
 
                 <select class="form-control input-lg" id="newCategory" name="newCategory">
 
-                  <option value="">Select Category</option>
+                  <option value="">Seleccionar Categoría</option>
 
                    <?php
 
@@ -149,7 +149,7 @@ if($_SESSION["profile"] == "Seller"){
 
                 <span class="input-group-addon"><i class="fa fa-code"></i></span>
 
-                <input class="form-control input-lg" type="text" id="newCode" name="newCode" placeholder="Add Product Code" required>
+                <input class="form-control input-lg" type="text" id="newCode" name="newCode" placeholder="Código de producto" required>
 
               </div>
 
@@ -162,7 +162,7 @@ if($_SESSION["profile"] == "Seller"){
 
                 <span class="input-group-addon"><i class="fa fa-product-hunt"></i></span>
 
-                <input class="form-control input-lg" type="text" id="newDescription" name="newDescription" placeholder="Add Description/Product Name" required>
+                <input class="form-control input-lg" type="text" id="newDescription" name="newDescription" placeholder="Nombre de producto" required>
 
               </div>
 
@@ -175,7 +175,7 @@ if($_SESSION["profile"] == "Seller"){
 
                 <span class="input-group-addon"><i class="fa fa-check"></i></span>
 
-                <input class="form-control input-lg" type="number" id="newStock" name="newStock" placeholder="Add Stock" min="0" required>
+                <input class="form-control input-lg" type="number" id="newStock" name="newStock" placeholder="Añadir Existencias" min="0" required>
 
               </div>
 
@@ -190,7 +190,7 @@ if($_SESSION["profile"] == "Seller"){
 
                   <span class="input-group-addon"><i class="fa fa-arrow-up"></i></span> 
 
-                  <input type="number" class="form-control input-lg" id="newBuyingPrice" name="newBuyingPrice" step="any" min="0" placeholder="Buying Price" required>
+                  <input type="number" class="form-control input-lg" id="newBuyingPrice" name="newBuyingPrice" step="any" min="0" placeholder="Precio de compra" required>
 
                 </div>
 
@@ -204,7 +204,7 @@ if($_SESSION["profile"] == "Seller"){
 
                   <span class="input-group-addon"><i class="fa fa-arrow-down"></i></span> 
 
-                  <input type="number" class="form-control input-lg" id="newSellingPrice" name="newSellingPrice" step="any" min="0" placeholder="Selling Price" required>
+                  <input type="number" class="form-control input-lg" id="newSellingPrice" name="newSellingPrice" step="any" min="0" placeholder="Precio de venta" required>
 
                 </div> 
 
@@ -219,7 +219,7 @@ if($_SESSION["profile"] == "Seller"){
 
                       <input type="checkbox" class="minimal percentage" checked>
 
-                      Use Percentage
+                      Precio porcentual
 
                     </label>
 
@@ -247,11 +247,11 @@ if($_SESSION["profile"] == "Seller"){
             <!-- input image -->
             <div class="form-group">
 
-              <div class="panel">Upload image</div>
+              <div class="panel">Subir imagen</div>
 
               <input id="newProdPhoto" type="file" class="newImage" name="newProdPhoto">
 
-              <p class="help-block">Maximum size 2Mb</p>
+              <p class="help-block">Tamaño máximo 2Mb</p>
 
               <img src="views/img/products/default/anonymous.png" class="img-thumbnail preview" alt="" width="100px">
 
@@ -267,9 +267,9 @@ if($_SESSION["profile"] == "Seller"){
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
 
-          <button type="submit" class="btn btn-success">Save Product</button>
+          <button type="submit" class="btn btn-success">Guardar Producto</button>
 
         </div>
 
@@ -310,7 +310,7 @@ EDIT PRODUCT
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Edit product</h4>
+          <h4 class="modal-title">Editar Producto</h4>
 
         </div>
 
@@ -415,7 +415,7 @@ EDIT PRODUCT
                         
                         <input type="checkbox" class="minimal percentage" checked>
                         
-                        Use Percentage
+                        Precio porcentual
 
                       </label>
 
@@ -443,11 +443,11 @@ EDIT PRODUCT
             <!-- INPUT TO UPLOAD IMAGE -->
              <div class="form-group">
               
-              <div class="panel">Upload Image</div>
+              <div class="panel">Subir imagen</div>
 
               <input type="file" class="newImage" name="editImage">
 
-              <p class="help-block">2MB max</p>
+              <p class="help-block">Tamaño Máximo 2MB</p>
 
               <img src="views/img/products/default/anonymous.png" class="img-thumbnail preview" width="100px">
 
@@ -465,9 +465,9 @@ EDIT PRODUCT
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
 
-          <button type="submit" class="btn btn-success">Save Changes</button>
+          <button type="submit" class="btn btn-success">Guardar cambios</button>
 
         </div>
 

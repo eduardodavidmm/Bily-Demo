@@ -71,7 +71,7 @@
 
 							<div class="pull-right">
 
-								<a class="btn btn-default btn-flat" href="logout">Logout</a>
+								<a class="btn btn-default btn-flat" href="logout">Cerrar Sesión</a>
 
 							</div><!-- Log on to codeastro.com for more projects! -->
 

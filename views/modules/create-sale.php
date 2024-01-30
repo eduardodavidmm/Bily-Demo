@@ -20,15 +20,15 @@ if($_SESSION["profile"] == "Special"){
 
     <h1>
 
-      Sales Management
+      Administración de Ventas
 
     </h1>
 
     <ol class="breadcrumb">
 
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
 
-      <li class="active">Create Sale</li>
+      <li class="active">Nueva Venta</li>
 
     </ol>
 
@@ -127,7 +127,7 @@ if($_SESSION["profile"] == "Special"){
                         <span class="input-group-addon"><i class="fa fa-users"></i></span>
                         <select class="form-control" name="selectCustomer" id="selectCustomer" required>
                           
-                            <option value="">Select Customer</option>
+                            <option value="">Seleccionar cliente</option>
 
                             <?php 
 
@@ -145,7 +145,7 @@ if($_SESSION["profile"] == "Special"){
 
                         </select>
 
-                        <span class="input-group-addon"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalAddCustomer" data-dismiss="modal">Add Customer</button></span>
+                        <span class="input-group-addon"><button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#modalAddCustomer" data-dismiss="modal">Añadir cliente</button></span>
 
                       </div>
 
@@ -167,7 +167,7 @@ if($_SESSION["profile"] == "Special"){
                     =            ADD PRODUCT BUTTON          =
                     ======================================-->
                     
-                    <button type="button" class="btn btn-default hidden-lg btnAddProduct">Add Product</button>
+                    <button type="button" class="btn btn-default hidden-lg btnAddProduct">Añadir Producto</button>
 
                     <hr>
 
@@ -183,7 +183,7 @@ if($_SESSION["profile"] == "Special"){
                           
                           <thead>
                             
-                            <th>Taxes</th>
+                            <th>ISV</th>
                             <th>Total</th>
 
                           </thead>
@@ -248,10 +248,10 @@ if($_SESSION["profile"] == "Special"){
                       
                           <select class="form-control" name="newPaymentMethod" id="newPaymentMethod" required>
                             
-                              <option value="">-Select Payment Method-</option>
-                              <option value="cash">Cash</option>
-                              <option value="CC">Credit Card</option>
-                              <option value="DC">Debit Card</option>
+                              <option value="">Método de pago</option>
+                              <option value="cash">Efectivo</option>
+                              <option value="CC">Tarjeta de Crédito</option>
+                              <option value="DC">Tarjeta de Débito/Transferencia</option>
 
                           </select>
 
@@ -272,7 +272,7 @@ if($_SESSION["profile"] == "Special"){
             </div>
 
             <div class="box-footer">
-              <button type="submit" class="btn btn-success pull-right">Save Sale</button>
+              <button type="submit" class="btn btn-success pull-right">Crear Venta</button>
             </div>
           </form>
 
@@ -308,11 +308,11 @@ if($_SESSION["profile"] == "Special"){
                    <tr>
                      
                      <th style="width:10px">#</th>
-                     <th>Image</th>
-                     <th style="width:30px">Code</th>
-                     <th>Description</th>
-                     <th>Stock</th>
-                     <th>Actions</th>
+                     <th>Imagen</th>
+                     <th style="width:30px">Código</th>
+                     <th>Descripción</th>
+                     <th>Existencias</th>
+                     <th>Acciones</th>
 
                    </tr> 
 
@@ -347,7 +347,7 @@ if($_SESSION["profile"] == "Special"){
       <form role="form" method="POST">
         <div class="modal-header" style="background: #DD4B39; color: #fff">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Add Customer</h4>
+          <h4 class="modal-title">Añadir Cliente</h4>
         </div>
         <div class="modal-body">
           <div class="box-body">
@@ -356,7 +356,7 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                <input class="form-control input-lg" type="text" name="newCustomer" placeholder="Write name" required>
+                <input class="form-control input-lg" type="text" name="newCustomer" placeholder="Nombre" required>
               </div>
             </div>
 
@@ -364,7 +364,7 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                <input class="form-control input-lg" type="number" min="0" name="newIdDocument" placeholder="Write your ID" required>
+                <input class="form-control input-lg" type="number" min="0" name="newIdDocument" placeholder="DNI" required>
               </div>
             </div>
 
@@ -372,7 +372,7 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                <input class="form-control input-lg" type="text" name="newEmail" placeholder="Email" required>
+                <input class="form-control input-lg" type="text" name="newEmail" placeholder="Correo electrónico" required>
               </div>
             </div>
 
@@ -380,7 +380,7 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                <input class="form-control input-lg" type="text" name="newPhone" placeholder="phone" data-inputmask="'mask':'(999) 999-9999'" data-mask required>
+                <input class="form-control input-lg" type="text" name="newPhone" placeholder="Teléfono" data-inputmask="'mask':'9999-9999'" data-mask required>
               </div>
             </div>
 
@@ -388,7 +388,7 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-map-marker"></i></span>
-                <input class="form-control input-lg" type="text" name="newAddress" placeholder="Address" required>
+                <input class="form-control input-lg" type="text" name="newAddress" placeholder="Dirección" required>
               </div>
             </div>
 
@@ -397,15 +397,15 @@ if($_SESSION["profile"] == "Special"){
             <div class="form-group">
               <div class="input-group">
                 <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
-                <input class="form-control input-lg" type="text" name="newBirthdate" placeholder="Birth Date" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask required>
+                <input class="form-control input-lg" type="text" name="newBirthdate" placeholder="Fecha" data-inputmask="'alias': 'yyyy/mm/dd'" data-mask required>
               </div>
             </div>
 
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-success">Save Customer</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-success">Guardar Cliente</button>
         </div>
       </form>
 

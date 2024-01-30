@@ -19,15 +19,15 @@ if($_SESSION["profile"] == "Special" || $_SESSION["profile"] == "Seller"){
     
     <h1><!-- Log on to codeastro.com for more projects! -->
       
-      Sales report
+      Reporte de Ventas
     
     </h1>
 
     <ol class="breadcrumb">
       
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Sales report</li>
+      <li class="active">Reporte de Ventas</li>
     
     </ol>
 
@@ -44,7 +44,7 @@ if($_SESSION["profile"] == "Special" || $_SESSION["profile"] == "Seller"){
           <button type="button" class="btn btn-default" id="daterange-btn2">
            
             <span>
-              <i class="fa fa-calendar"></i> Date range
+              <i class="fa fa-calendar"></i> Rango de fechas
             </span>
 
             <i class="fa fa-caret-down"></i>
@@ -69,7 +69,7 @@ if($_SESSION["profile"] == "Special" || $_SESSION["profile"] == "Seller"){
 
         ?>
            
-           <button class="btn btn-success" style="margin-top:5px">Export to Excel</button>
+           <button class="btn btn-success" style="margin-top:5px">Exportar a Excel</button>
 
           </a>
 

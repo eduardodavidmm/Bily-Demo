@@ -30,13 +30,13 @@ if($xml){
 
     <h1>
 	<!-- Log on to codeastro.com for more projects! -->
-      Sales Management
+      Administración de Ventas
 
     </h1>
 
     <ol class="breadcrumb">
 
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
 
       <li class="active">Dashboard</li>
 
@@ -53,7 +53,7 @@ if($xml){
         <a href="create-sale">
           <button class="btn btn-success" >
         
-          <i class="fa fa-plus"></i> Add Sale
+          <i class="fa fa-plus"></i> Nueva Venta
   
           </button>
         </a>
@@ -61,7 +61,7 @@ if($xml){
         <button type="button" class="btn btn-primary pull-right" id="daterange-btn">
            
             <span>
-              <i class="fa fa-calendar"></i> Date Range
+              <i class="fa fa-calendar"></i> Rango de fechas
             </span>
 
             <i class="fa fa-caret-down"></i>
@@ -79,14 +79,14 @@ if($xml){
            <tr>
              
              <th style="width:10px">#</th>
-             <th>Bill</th>
-             <th>Customer</th>
-             <th>Seller</th>
-             <th>Payment Method</th>
-             <th>Net Cost</th>
-             <th>Total Cost</th>
-             <th>Date</th>
-             <th>Actions</th>
+             <th>Factura</th>
+             <th>Cliente</th>
+             <th>Vendedor</th>
+             <th>Método de pago</th>
+             <th>Costo Neto</th>
+             <th>Costo Total</th>
+             <th>Fecha</th>
+             <th>Acciones</th>
 
            </tr> 
 

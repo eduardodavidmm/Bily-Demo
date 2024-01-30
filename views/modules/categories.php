@@ -19,10 +19,10 @@ if($_SESSION["profile"] == "Seller"){
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Category Management
+        Administración de Categorías
       </h1>
       <ol class="breadcrumb">
-        <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
         <li class="active">Dashboard</li>
       </ol>
     </section>
@@ -33,7 +33,7 @@ if($_SESSION["profile"] == "Seller"){
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <button class="btn btn-success" data-toggle="modal" data-target="#addCategories"> <i class="fa fa-plus"></i> Add Categories</button>
+          <button class="btn btn-success" data-toggle="modal" data-target="#addCategories"> <i class="fa fa-plus"></i> Añadir Categoría</button>
 
         </div>
         <div class="box-body">
@@ -44,8 +44,8 @@ if($_SESSION["profile"] == "Seller"){
              <tr>
                
                <th style="width:10px">#</th>
-               <th>Category</th>
-               <th>Actions</th>
+               <th>Categoría</th>
+               <th>Acción</th>
 
              </tr> 
 

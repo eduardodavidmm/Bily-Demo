@@ -49,7 +49,7 @@ Sellers
 	
 	<div class="box-header with-border">
     
-    	<h3 class="box-title">Sellers</h3>
+    	<h3 class="box-title">Vendedores</h3>
   
   	</div>
 

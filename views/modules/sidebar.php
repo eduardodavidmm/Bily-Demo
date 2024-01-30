@@ -16,7 +16,7 @@
 
 							<i class="fa fa-home"></i>
 
-							<span>Home</span>
+							<span>Inicio</span>
 
 						</a>
 
@@ -37,7 +37,7 @@
 
 							<i class="fa fa-th"></i>
 
-							<span>Categories</span>
+							<span>Categorías</span>
 
 						</a>
 
@@ -49,7 +49,7 @@
 
 							<i class="fa fa-product-hunt"></i>
 
-							<span>Products</span>
+							<span>Productos</span>
 
 						</a>
 
@@ -67,7 +67,7 @@
 
 							<i class="fa fa-users"></i>
 
-							<span>Customers</span>
+							<span>Clientes</span>
 
 						</a>
 
@@ -87,7 +87,7 @@
 
 					<i class="fa fa-usd"></i>
 
-					<span>Sales</span>
+					<span>Ventas</span>
 
 					<span class="pull-right-container">
 
@@ -105,7 +105,7 @@
 
 							<i class="fa fa-circle"></i>
 
-							<span>Manage Sales</span>
+							<span>Administración de Ventas</span>
 
 						</a>
 
@@ -117,7 +117,7 @@
 
 							<i class="fa fa-circle"></i>
 
-							<span>Create Sale</span>
+							<span>Nueva Venta</span>
 
 						</a>
 
@@ -133,7 +133,7 @@
 
 							<i class="fa fa-file"></i>
 
-							<span>Sales Report</span>
+							<span>Reporte de ventas</span>
 
 						</a>
 
@@ -146,7 +146,7 @@
 
 							<i class="fa fa-user"></i>
 
-							<span>User Management</span>
+							<span>Administración de usuarios</span>
 
 						</a>
 

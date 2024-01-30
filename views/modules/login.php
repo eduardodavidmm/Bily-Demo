@@ -10,7 +10,7 @@
 
   <div class="login-box-body">
 
-    <p class="login-box-msg">Inicio de Sesion - BILY</p>
+    <p class="login-box-msg">Inicio de Sesión - BILY</p>
 
     <form method="post">
 
@@ -32,9 +32,9 @@
 
       <div class="row">
 
-        <div class="col-xs-4">
+        <div class="col-xs-5">
 
-          <button type="submit" class="btn btn-success btn-block btn-flat">Log In</button>
+          <button type="submit" class="btn btn-success btn-block btn-flat">Iniciar Sesión</button>
 
         </div>
        

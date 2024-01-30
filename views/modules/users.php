@@ -5,13 +5,13 @@
 
     <h1>
 
-      User Management
+      Administración de Usuarios
 
     </h1>
 
     <ol class="breadcrumb">
 
-      <li><a href="home"><i class="fa fa-dashboard"></i> Home</a></li>
+      <li><a href="home"><i class="fa fa-dashboard"></i> Inicio</a></li>
 
       <li class="active">Dashboard</li>
 
@@ -27,7 +27,7 @@
 
         <button class="btn btn-success" data-toggle="modal" data-target="#addUser">
 
-         <i class="fa fa-plus"></i> Add User
+         <i class="fa fa-plus"></i> Añadir Usuario
 
         </button>
 
@@ -42,13 +42,13 @@
            <tr>
              
              <th style="width:10px">#</th>
-             <th>Name</th>
-             <th>Username</th>
-             <th>Photo</th>
-             <th>Profile</th>
-             <th>Status</th>
-             <th>Last Login</th>
-             <th>Actions</th>
+             <th>Nombre</th>
+             <th>Usuario</th>
+             <th>Foto</th>
+             <th>Perfil</th>
+             <th>Estado</th>
+             <th>Última conexión</th>
+             <th>Acciones</th>
 
            </tr> 
 
@@ -148,7 +148,7 @@
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Add User</h4>
+          <h4 class="modal-title">Añadir Usuario</h4>
 
         </div>
 
@@ -167,7 +167,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
 
-                <input class="form-control input-lg" type="text" name="newName" placeholder="Enter fullname" required>
+                <input class="form-control input-lg" type="text" name="newName" placeholder="Nombre" required>
 
               </div>
 
@@ -180,7 +180,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-key"></i></span>
 
-                <input class="form-control input-lg" type="text" id="newUser" name="newUser" placeholder="Enter username" required>
+                <input class="form-control input-lg" type="text" id="newUser" name="newUser" placeholder="Usuario" required>
 
               </div>
 
@@ -193,7 +193,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
 
-                <input class="form-control input-lg" type="password" name="newPasswd" placeholder="Enter password" required>
+                <input class="form-control input-lg" type="password" name="newPasswd" placeholder="Contraseña" required>
 
               </div>
 
@@ -208,10 +208,10 @@
 
                 <select class="form-control input-lg" name="newProfile">
 
-                  <option value="">Select Level</option>
-                  <option value="administrator">Administrator</option>
-                  <option value="special">Special</option>
-                  <option value="seller">Seller</option>
+                  <option value="">Seleccionar Perfil</option>
+                  <option value="administrator">Administrador</option>
+                  <option value="special">Especial</option>
+                  <option value="seller">Vendedor</option>
 
                 </select>
 
@@ -222,11 +222,11 @@
             <!-- Uploading image -->
             <div class="form-group">
 
-              <div class="panel">Upload image</div>
+              <div class="panel">Subir Imagen</div>
 
               <input class="newPics" type="file" name="newPhoto">
 
-              <p class="help-block">Maximum size 2Mb</p>
+              <p class="help-block">Tamaño Máximo 2Mb</p>
 
               <img class="thumbnail preview" src="views/img/users/default/prfplaceholder.png" width="100px">
 
@@ -242,9 +242,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
 
-          <button type="submit" class="btn btn-success">Save</button>
+          <button type="submit" class="btn btn-success">Guardar</button>
           
         </div>
 
@@ -284,7 +284,7 @@
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
-          <h4 class="modal-title">Edit User</h4>
+          <h4 class="modal-title">Editar Usuario</h4>
 
         </div>
 
@@ -303,7 +303,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
 
-                <input class="form-control input-lg" type="text" id="EditName" name="EditName" placeholder="Edit name" required>
+                <input class="form-control input-lg" type="text" id="EditName" name="EditName" placeholder="Editar nombre" required>
 
               </div>
 
@@ -316,7 +316,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-key"></i></span>
 
-                <input class="form-control input-lg" type="text" id="EditUser" name="EditUser" placeholder="Edit username" readonly>
+                <input class="form-control input-lg" type="text" id="EditUser" name="EditUser" placeholder="Editar usuario" readonly>
 
               </div>
 
@@ -329,7 +329,7 @@
 
                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
 
-                <input class="form-control input-lg" type="password" name="EditPasswd" placeholder="Enter new password">
+                <input class="form-control input-lg" type="password" name="EditPasswd" placeholder="Ingrese nueva contraseña">
 
                 <input type="hidden" name="currentPasswd" id="currentPasswd">
 
@@ -347,9 +347,9 @@
                 <select class="form-control input-lg" name="EditProfile">
 
                   <option value="" id="EditProfile"></option>
-                  <option value="administrator">Administrator</option>
-                  <option value="special">Special</option>
-                  <option value="seller">Seller</option>
+                  <option value="administrator">Administrador</option>
+                  <option value="special">Especial</option>
+                  <option value="seller">Vendedor</option>
 
                 </select>
 
@@ -360,11 +360,11 @@
             <!-- Uploading image -->
             <div class="form-group">
 
-              <div class="panel">Upload image</div>
+              <div class="panel">Subir Imagen</div>
 
               <input class="newPics" type="file" name="editPhoto">
 
-              <p class="help-block">Maximum size 2Mb</p>
+              <p class="help-block">Tamaño Máximo 2Mb</p>
 
               <img class="thumbnail preview" src="views/img/users/default/anonymous.png" alt="" width="100px">
 
@@ -382,9 +382,9 @@
 
         <div class="modal-footer">
 
-          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Cerrar</button>
 
-          <button type="submit" class="btn btn-success">Edit User</button>
+          <button type="submit" class="btn btn-success">Editar Usuario</button>
           
         </div>
 

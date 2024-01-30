@@ -49,7 +49,7 @@ Customers
 	
 	<div class="box-header with-border">
     
-    	<h3 class="box-title">Customers</h3>
+    	<h3 class="box-title">Clientes</h3>
   
   	</div>
 

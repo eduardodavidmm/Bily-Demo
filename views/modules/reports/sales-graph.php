@@ -56,7 +56,7 @@ SALES GRAPH
 		
  		<i class="fa fa-th"></i>
 
-  		<h3 class="box-title">Sales Graph</h3>
+  		<h3 class="box-title">Gráfico de ventas</h3>
 
 	</div>
 
@@ -99,7 +99,7 @@ SALES GRAPH
     ],
     xkey             : 'y',
     ykeys            : ['Sales'],
-    labels           : ['Sales'],
+    labels           : ['Ventas'],
     lineColors       : ['#efefef'],
     lineWidth        : 2,
     hideHover        : 'auto',

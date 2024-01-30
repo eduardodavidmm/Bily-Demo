@@ -25,9 +25,9 @@ $totalProducts = count($products);
     
     <div class="inner">
       
-      <h3>$<?php echo number_format($sales["total"],2); ?></h3>
+      <h3>L<?php echo number_format($sales["total"],2); ?></h3>
 
-      <p>Sales</p>
+      <p>Ventas</p>
     
     </div>
     
@@ -39,7 +39,7 @@ $totalProducts = count($products);
     
     <a href="sales" class="small-box-footer">
       
-      More info <i class="fa fa-arrow-circle-right"></i>
+      Más información <i class="fa fa-arrow-circle-right"></i>
     
     </a>
 
@@ -55,7 +55,7 @@ $totalProducts = count($products);
     
       <h3><?php echo number_format($totalCategories); ?></h3>
 
-      <p>Categories</p>
+      <p>Categorías</p>
     
     </div>
     
@@ -67,7 +67,7 @@ $totalProducts = count($products);
     
     <a href="categories" class="small-box-footer">
       
-      More info <i class="fa fa-arrow-circle-right"></i>
+      Más información <i class="fa fa-arrow-circle-right"></i>
     
     </a>
 
@@ -83,7 +83,7 @@ $totalProducts = count($products);
     
       <h3><?php echo number_format($totalCustomers); ?></h3>
 
-      <p>Customers</p>
+      <p>Clientes</p>
   
     </div>
     
@@ -95,7 +95,7 @@ $totalProducts = count($products);
     
     <a href="customers" class="small-box-footer">
 
-      More info <i class="fa fa-arrow-circle-right"></i>
+      Más información <i class="fa fa-arrow-circle-right"></i>
 
     </a>
 
@@ -111,7 +111,7 @@ $totalProducts = count($products);
     
       <h3><?php echo number_format($totalProducts); ?></h3>
 
-      <p>products</p>
+      <p>Productos</p>
     
     </div>
     
@@ -123,7 +123,7 @@ $totalProducts = count($products);
     
     <a href="products" class="small-box-footer">
       
-      More info <i class="fa fa-arrow-circle-right"></i>
+      Más información <i class="fa fa-arrow-circle-right"></i>
     
     </a>
 

@@ -21,7 +21,7 @@ products MÁS VENDIDOS
 	
 	<div class="box-header with-bvalue">
   
-      <h3 class="box-title">Bestseller Products</h3>
+      <h3 class="box-title">Productos más Vendidos</h3>
 
     </div>
 

@@ -13,7 +13,7 @@ $products = ControllerProducts::ctrShowProducts($item, $value, $order);
 
   <div class="box-header with-border">
 
-    <h3 class="box-title">Recently Added Products</h3>
+    <h3 class="box-title">Productos Recientemente Agregados</h3>
 
     <div class="box-tools pull-right">
 
@@ -73,7 +73,7 @@ $products = ControllerProducts::ctrShowProducts($item, $value, $order);
 
   <div class="box-footer text-center">
 
-    <a href="products" class="uppercase">View All Products</a>
+    <a href="products" class="uppercase">Ver todos los productos</a>
   
   </div>
 	<!-- Log on to codeastro.com for more projects! -->
